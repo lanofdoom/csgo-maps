@@ -14,10 +14,7 @@ If setting ``sv_downloadurl``, you are also required to set ``sv_allowdownload 1
 * $2000$
 * aim_ag_texture2 
 * aim_ag_texture_city
-* aim_deagle7k
 * breakfloor
-* fy_iceworld
-* fy_pool_day
 
 ## Licensing
 All maps included in the LAN of DOOM map pack have been licensed for redistribution. For details, see the license files included with the server tarball or the the license files in the map pack [repository](https://github.com/lanofdoom/csgo-maps).
