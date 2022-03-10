@@ -1,0 +1,11 @@
+// HLTV overview description file for aim_deagle7k.bsp
+
+"aim_deagle7k"
+{
+	"material"	"overviews/aim_deagle7k"	// texture file
+	"pos_x"		"-1105"	// upper left world coordinate
+	"pos_y"		"947"
+	"scale"		"2.1"
+//	"zoom"		"1.6" 
+}
+
