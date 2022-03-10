@@ -1,37 +1,28 @@
-## Welcome to GitHub Pages
+## Releases
+* [Latest](https://lanofdoom.github.io/csgo-maps/releases/latest/maps.tar.xz) [BZ2](https://lanofdoom.github.io/csgo-maps/releases/latest/maps_bz2.tar.xz) (1.0.0)
+  * ``sv_downloadurl``: https://lanofdoom.github.io/csgo-maps/releases/latest/cstrike
+* [Nightly](https://lanofdoom.github.io/csgo-maps/releases/nightly/maps.tar.xz) [BZ2](https://lanofdoom.github.io/csgo-maps/releases/nightly/maps_bz2.tar.xz)
+  * ``sv_downloadurl``: https://lanofdoom.github.io/csgo-maps/releases/nightly/cstrike
+## Installation
+Extract ``maps.tar.xz`` into your server's ``css/csgo`` directory.
 
-You can use the [editor on GitHub](https://github.com/BradleyMarie/csgo-maps/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Optionally, consider pointing your server's ``sv_downloadurl`` using the value corresponding with the version you've downloaded. This significant speeds up client map downloads and saves bandwidth on your server by leveraging GitHub's CDN for map downloads.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+If setting ``sv_downloadurl``, you are also required to set ``sv_allowdownload 1`` and ``sv_allowupload 1``.
 
-### Markdown
+## Maps
+* $2000$
+* aim_ag_texture2 
+* aim_ag_texture_city
+* aim_deagle7k
+* breakfloor
+* fy_iceworld
+* fy_pool_day
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Licensing
+All maps included in the LAN of DOOM map pack have been licensed for redistribution. For details, see the license files included with the server tarball or the the license files in the map pack [repository](https://github.com/lanofdoom/csgo-maps).
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/BradleyMarie/csgo-maps/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Version History
+### 1.0.0 ([Download](https://lanofdoom.github.io/csgo-maps/releases/v1.0.0/maps.tar.xz)) ([BZ2](https://lanofdoom.github.io/csgo-maps/releases/v1.0.0/maps_bz2.tar.xz))
+* ``sv_downloadurl``: https://lanofdoom.github.io/csgo-maps/releases/v1.0.0/cstrike
+* Initial Release
